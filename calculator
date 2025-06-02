@@ -1,0 +1,28 @@
+x = input("Hi Mate, u wanna calculate?(yes/no) ")
+while True:
+        if x == "yes":
+                print("please continue")
+        else :
+                print("wrong place lil bro")
+                break
+        y = input("ok, wht do u wanna do? (add/sub/div/multi)  ")
+        if y == "add":
+                print("enter the two values: ")
+                a = int(input("what is the first number? "))
+                b = int(input("what is the second number? "))
+                print(f"the sum is {a+b}")
+        elif y == "sub":
+                print("enter the two values: ")
+                a = int(input("what is the first number? "))
+                b = int(input("what is the second number? "))
+                print(f"the difference is {a-b}")
+        elif y == "multi":
+                print("enter the two values: ")
+                a = int(input("what is the first number? "))
+                b = int(input("what is the second number? "))
+                print(f"the product is{a*b}")
+        elif y == "div":
+                print("enter the two values: ")
+                a = int(input("what is the first number? "))
+                b = int(input("what is the second number? "))
+                print(f"the answer is{a/b, 2}")
